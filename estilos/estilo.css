@@ -1,0 +1,172 @@
+P { font-size:12 pt;font-family:ARIAL; font-weight:normal; color:white;}
+
+H1 { font-size:36 pt;font-family:ARIAL; text-decoration:underine; text-aling:center; background-color:white;}
+
+BODY {background:url(suplementos.png) white;background-position:center;}
+nav li 
+{
+	display: inline-block;/* Me sirve para mostrar elementos en una sola linea*/
+	text-decoration: none;/*Arriba esta la descripcion*/
+	vertical-align: top;/*Todo este aliniado en el borde superior (Eso significa top)*/
+	margin: 1em 1em 1em 1em ;
+
+
+
+}
+form
+{background:#333333;
+width:455px;
+border:1px solid #4e4d4d;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+box-shadow:inset 0 0 10px #000;
+margin:100px auto;
+}
+
+
+from h1
+{
+text-align:center;
+color:#fff;
+font-weight:normal;
+font-size:40pt;
+margin:30px 0px;
+}
+
+from input
+{
+width:280px;
+height:35px;
+padding:0px 10px;
+margin:10px 30px;
+color:#6d6d6d;
+text-aling:center;
+}
+
+form button
+{
+width:135px;
+margin:20px 0px 30px 30px;
+height:50px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+1,2989d8+50,207cca+51,000000+100 */
+background: #000000; /* Old browsers */
+background: -moz-linear-gradient(top,  #000000 1%, #2989d8 50%, #207cca 51%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #000000 1%,#2989d8 50%,#207cca 51%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #000000 1%,#2989d8 50%,#207cca 51%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+border:1px solid #232323;
+color:#fff;
+box-shadow:0px 2px 0px #000;
+-moz-box-shadow:0px 2px 0px #000;
+-webkit-box-shadow:0px 2px 0px #000;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+}
+
+form button:hover
+{
+background:#3a3a3a;
+}
+
+form button: active
+{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,1ea01e+50,21a51a+51,000000+100 */
+background: #000000; /* Old browsers */
+background: -moz-linear-gradient(top,  #000000 0%, #1ea01e 50%, #21a51a 51%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #000000 0%,#1ea01e 50%,#21a51a 51%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #000000 0%,#1ea01e 50%,#21a51a 51%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+table {
+
+width:20%;
+margin-left:auto;
+margin-right:auto;
+border:0px  PINK;
+border-spacing:0px;
+}
+
+td,th{
+border:0px  PINK;
+padding:1px;
+}
+
+table.formulario{
+
+width:50%;
+border:2px solid blue;
+}
+
+td:hover{
+
+background-color:gray;
+color:red;
+}
+
+table.formulario td{
+border:2px solid gray;
+
+}
+
+
+ul.menu{
+background-color:yellow;
+}
+
+ul.formulario{
+background-color:gray;
+}
+
+.social {
+	position: fixed; /* Hacemos que la posici n en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga alg n otro elemento como sliders, galer as, etc */
+}
+ 
+.social ul {
+list-style: none;
+}
+ 
+.social ul li a {
+display: inline-block;
+color:#fff;
+background: #000;
+padding: 5px 5px;
+text-decoration: none;
+-webkit-transition:all 500ms ease;
+-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transici n a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-instagram {background:PURPLE;}
+
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+td:hover{
+
+background-color:white;
+color:green;
+
+}
+
+a{
+text-decoration:none;
+}
+
+a:hover{
+color:pink;
+}
+
+td.pie:hover{
+
+background-color:white;
+color:red;
+}
